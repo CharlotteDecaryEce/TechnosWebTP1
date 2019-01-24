@@ -23,6 +23,7 @@ h2{
 
 .roundedImage{
 
+animation: bounce 1s alternate 0.1s infinite ease-in;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -30,7 +31,6 @@ h2{
 	width:200px;
 	height:200px;
 	margin-bottom: 40px;
-
 
 }
 hr{
@@ -44,8 +44,17 @@ hr{
 	color: white;
 
 }
-
+@keyframes bounce {
+  0% {
+    transform: translateY(-20%);
+}
+  
+  100% {
+    transform: translateY(0%);
+  }
+}
 h1{
+	
 	color: rgb(255,255,255);
 	text-align: center;
 	font-family: 'Merriweather', serif;
