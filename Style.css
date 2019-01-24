@@ -5,49 +5,43 @@ body{
 	margin: auto;
 	font-size: .auto;
 	padding:1em;
-
 	background-color: #232323;
-    /*background-image: radial-gradient(circle at center , #ADD8E6, #E0FFFF);
-
-    /* Obligatoire si on veut "voir" le dégradé */
-   
     height: 1000px;
 }
-
-}
-/*aside{
-	float: left;
-	display:flex;
-	
-}*/
 h2{
-	color: rgb(100,100,100);
-	float: center;
-	
+	color: rgb(255,255,255);
+	font-size: 40px
+
 
 }
 .roundedImage{
 
-   /*overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;*/
     display:block;
     margin-left: auto;
     margin-right: auto;
     border-radius:100px;
     width:200px;
     height:200px;
+    margin-bottom: 5%;
     
     
     }
+.aporposs{
+	text-align: center;
+	margin-bottom: 60px;
+	margin-bottom: 7%;
+	color: white;
+
+}
 
 h1{
 	color: rgb(255,255,255);
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	font-size: 50px;
+	font-size: 100px;
 	font-weight: normal;
 	font-weight: 1.8;
+	margin-top: 5%;
 }
 *{
 	/*font-family: 'Source Sans Pro', sans-serif;*/
@@ -55,10 +49,70 @@ h1{
 	font-size: 18px;
   	font-weight: normal;
 	line-height: 1.6;
+
+}
+tr{
+	text-align: all;
+}
+.iconeentreprise{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 52px;
 }
 
-.class-competence,.class-apropos,.class-contact,.class-experience,.class-formation{
+#class-competence,.class-apropos,#class-contact,#class-experience,#class-formation{
 	color:rgb(255,255,255);
+	
+
+}
+footer{
+	color:rgb(255,255,255);
+	text-align: right;
 }
 
-   
+
+ .menu {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 5%; }
+  .menu .menu-list {
+    display: -webkit-inline-box;
+    }
+  .menu .menu-item {
+    padding: 0 42px 0 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    line-height: 15px;
+    font-size: 15px; }
+    .menu .menu-item:before {
+      content: '';
+      position:absolute;
+      top: 49%;
+      left: -14px;
+      margin-top: -2px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: rgb(255,255,255);}
+  .menu .item-link {
+    color: rgb(255,255,255);
+    font-family: inconsolata, monospace;
+    font-size: 15px;
+    }
+
+    #form1{
+	background-color: #696969 ;
+	
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+    height:400px;
+    border-radius: 20px;
+	margin-bottom:auto;
+	margin-top:auto;
+	text-align:center;
+
+}
