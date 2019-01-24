@@ -1,0 +1,64 @@
+
+
+body{
+	width:100%;
+	margin: auto;
+	font-size: .auto;
+	padding:1em;
+
+	background-color: #232323;
+    /*background-image: radial-gradient(circle at center , #ADD8E6, #E0FFFF);
+
+    /* Obligatoire si on veut "voir" le dégradé */
+   
+    height: 1000px;
+}
+
+}
+/*aside{
+	float: left;
+	display:flex;
+	
+}*/
+h2{
+	color: rgb(100,100,100);
+	float: center;
+	
+
+}
+.roundedImage{
+
+   /*overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;*/
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    
+    
+    }
+
+h1{
+	color: rgb(255,255,255);
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+	font-weight: normal;
+	font-weight: 1.8;
+}
+*{
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	font-family: "Benton Sans Book", "Benton Sans Book", sans-serif;
+	font-size: 18px;
+  	font-weight: normal;
+	line-height: 1.6;
+}
+
+.class-competence,.class-apropos,.class-contact,.class-experience,.class-formation{
+	color:rgb(255,255,255);
+}
+
+   

@@ -1,4 +1,6 @@
 # TechnosWebTP1
+* Charlotte Decary
+* TD 02
 
 ## Instructions
 
